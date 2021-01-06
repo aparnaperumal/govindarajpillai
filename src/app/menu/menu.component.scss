@@ -1,0 +1,72 @@
+::ng-deep .mat-toolbar{
+    z-index: 998;
+    position: fixed
+  }
+  ::ng-deep .mat-tab-group{
+    margin-top:55px !important;
+  }
+  
+  ::ng-deep .mat-tab-header{
+        z-index: 999;
+        width:100vw;
+        position: fixed  !important;
+        background-color: red !important;
+  }
+  ::ng-deep .mat-tab-body-wrapper{
+      position: relative !important;
+      margin-top:55px;
+  }
+
+.companyName{
+    font-size: 150%;
+}
+div {
+    overflow: inherit;
+}
+a{
+    text-decoration: none;
+    font-size: 110%;
+    white-space: normal;
+}
+button{
+    font-size: 110%;
+    min-width: min-content;
+}
+
+  .page-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-sidenav-content{
+      font-size: 200%;
+      text-align: center;
+  }
+.name-title{
+    font-family: 'Yellowtail', cursive;
+}
+.menu-title{
+    font-family: cursive;
+}
+.mat-toolbar {
+    background: rgb(200, 201, 207);
+    color: rgb(12, 11, 11)
+ }
+
+ .parallax {
+    /* The image used */
+    background-image: url(../../assets/images/lukas-blazek-GnvurwJsKaY-unsplash.jpg);
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .profileimage {
+    border-radius: 50%;
+    padding-top: 900px;
+    padding-left: 990px;
+  }
